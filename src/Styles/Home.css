@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500&family=Source+Code+Pro&display=swap');
+
+
+.home {
+    width: 100%;
+    align-items: center;
+    font-family: "Arial", sans-serif;
+    color: #242929;
+  }
+  
+  .about {
+    width: 100%;
+    height: calc(100vh - 90px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #395B64;
+    color: #f0f0f0;
+    ;
+  }
+
+  .meunome{
+    color: #242929;
+  }
+  
+  .about h2 {
+    width: 100%;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 75px;
+    color: #A5C9CA;
+    height: 50px;
+    text-align: left;
+    margin-right: 70vh;
+    overflow:visible;
+}
+  .about p {
+    display: inline;
+    font-size: 22px;
+    color: #E7F6F2;
+  }
+  
+  .about .prompt {
+    width: 40%;
+    font-size: 30px;
+    color: black;
+  }
+  .prompt svg {
+    font-size: 60px;
+    margin: 5px;
+    color: white;
+  }
+  
+  .skills { 
+    font-size: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter Tight', sans-serif;
+    text-align: center;
+  }
+  
+  .skills h1, h2 {
+    color: #395B64;
+    font-family: 'Inter Tight', sans-serif;
+    align-items: center;
+  }
+
+  .skills .list {
+    list-style: none;
+    width: 60%;
+  }
+  
+  .list span {
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 20px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .about h2 {
+      font-size: 40px;
+      margin-right: 10vh;
+    }
+  
+    .about .prompt {
+      margin-top: 10px;
+      font-size: 20px;
+      width: 80%;
+    }
+  
+    .skills {
+      text-align: center;
+    }
+    .list {
+      padding: 0;
+    }
+  
+    .skills h2 {
+      font-size: 30px;
+    }
+  }

@@ -32,7 +32,7 @@ function Experience() {
           </VerticalTimelineElement>
 
           <VerticalTimelineElement className='vertical-timeline-element--work' 
-          date='2008 - 2011'
+          date='2022 - 2022'
           iconStyle={{background: "#FF9551", color: "#FFF9B0"}}
           icon={< WorkIcon />}
           >
@@ -43,6 +43,17 @@ function Experience() {
             </p>
           </VerticalTimelineElement>
 
+          <VerticalTimelineElement className='vertical-timeline-element--work' 
+          date='2022 - 2022'
+          iconStyle={{background: "#FF9551", color: "#FFF9B0"}}
+          icon={< WorkIcon />}
+          >
+            <h3 className='vertical-timeline-element--title'>
+            Software developer in a SaaS company</h3>
+            <p>This was a whitelabel company where I developed new software and APIs using PHP Laravel.
+              I worked directly with the company CTO to maintain and create new features.
+            </p>
+          </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
   )

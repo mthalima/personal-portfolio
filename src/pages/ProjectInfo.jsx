@@ -10,11 +10,13 @@ function ProjectInfo(){
     return(
         <div className='project'>
             <h1>{project.name}</h1>
-            <img src={project.image}></img>
+            <img src={project.image} alt="Project Image"></img>
             <p>
                 {project.about}
             </p>
-            <GitHubIcon/>
+            <a href={project.repository} target="_blank" rel="noopener noreferrer">
+                <GitHubIcon/>
+            </a>
         </div>
     );
 }

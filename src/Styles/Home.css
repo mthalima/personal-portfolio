@@ -18,7 +18,9 @@
     text-align: center;
     color: #f0f0f0;
     background: rgb(57,91,100);
-    background: linear-gradient(90deg, rgba(57,91,100,1) 0%, rgba(57, 91, 100, 0.432) 100%);
+    background-image:linear-gradient(to left, rgba(57, 91, 100, 0.699), rgba(57, 91, 100, 1)) ,url("../assets/Person-Coding-On-Computer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .meunome{
@@ -29,7 +31,7 @@
     width: 100%;
     font-family: 'Source Code Pro', monospace;
     font-size: 75px;
-    color: #A5C9CA;
+    color: #cae5e6;
     height: 50px;
     text-align: left;
     margin-right: 70vh;

@@ -9,8 +9,9 @@
   
   .project h1 {
     margin-top: 50px;
-    color: #3e497a;
+    color: #395B64;
     font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
   }
   .project img {
     width: calc(100vw - 30%);
@@ -18,11 +19,12 @@
   }
   
   .project p {
-    font-size: 1.4rem;
-    color: #3e497a;
+    width: 60vw;
+    font-size: 1.2rem;
+    color: #242929;
   }
   
   .project svg {
     font-size: 60px;
-    color: #3e497a;
+    color: #242929;
   }

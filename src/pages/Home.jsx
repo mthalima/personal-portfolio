@@ -28,7 +28,7 @@ function Home() {
 
           <li className='item'>
             <h2>Back-end</h2>
-            <span>Laravel, Mysql, NodeJS ExpressJS</span>
+            <span>Laravel, Mysql, NodeJS, ExpressJS</span>
           </li>
 
           <li className='item'>

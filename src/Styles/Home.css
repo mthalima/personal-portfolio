@@ -18,8 +18,9 @@
     text-align: center;
     color: #f0f0f0;
     background: rgb(57,91,100);
-    background-image:linear-gradient(to left, rgba(57, 91, 100, 0.699), rgba(57, 91, 100, 1)) ,url("../assets/Person-Coding-On-Computer.jpg");
+    background-image:linear-gradient(to left, rgba(57, 91, 100, 0.699), rgba(57, 91, 100, 1)) ,url("../assets/my_worksapce.jpg");
     background-repeat: no-repeat;
+    background-position: top;
     background-size: cover;
   }
 

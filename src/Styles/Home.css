@@ -1,107 +1,125 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500&family=Source+Code+Pro&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500&family=Source+Code+Pro&display=swap");
 
 .home {
-    width: 100%;
-    align-items: center;
-    font-family: "Arial", sans-serif;
-    color: #242929;
-  }
-  
-  .about {
-    width: 100%;
-    height: calc(100vh - 90px);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    color: #f0f0f0;
-    background: rgb(57,91,100);
-    background-image:linear-gradient(to left, rgba(57, 91, 100, 0.699), rgba(57, 91, 100, 1)) ,url("../assets/my_worksapce.jpg");
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
-  }
-
-  .meunome{
-    color: #242929;
-  }
-  
-  .about h2 {
-    width: 100%;
-    font-family: 'Source Code Pro', monospace;
-    font-size: 75px;
-    color: #cae5e6;
-    height: 50px;
-    text-align: left;
-    margin-right: 70vh;
-    overflow:visible;
+  width: 100%;
+  align-items: center;
+  font-family: "Arial", sans-serif;
+  color: #242929;
 }
-  .about p {
-    display: inline;
-    font-size: 22px;
-    color: #E7F6F2;
-  }
-  
-  .about .prompt {
-    width: 40%;
-    font-size: 30px;
-    color: black;
-  }
-  .prompt svg {
-    font-size: 60px;
-    margin: 5px;
-    color: white;
-  }
-  
-  .skills { 
-    font-size: 35px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    font-family: 'Inter Tight', sans-serif;
-    text-align: center;
-  }
-  
-  .skills h1, h2 {
-    color: #395B64;
-    font-family: 'Inter Tight', sans-serif;
-    align-items: center;
+
+.about {
+  width: 100%;
+  height: calc(100vh - 90px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  color: #f0f0f0;
+  background: rgb(57, 91, 100);
+  background-image: linear-gradient(
+      to left,
+      rgba(57, 91, 100, 0.4),
+      rgba(57, 91, 100, 1)
+    ),
+    url("../assets/my_worksapce.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  overflow: visible;
+}
+
+.meunome {
+  color: #242929;
+}
+
+.about h2 {
+  width: 700px;
+  font-family: "Source Code Pro", monospace;
+  font-size: 90px;
+  color: #fefefe;
+  height: 50px;
+  text-align: left;
+  margin-right: 70vh;
+  overflow: visible;
+  margin-top: 150px;
+}
+.about p {
+  display: inline;
+  font-size: 22px;
+  color: #fefefe;
+}
+
+.about .prompt {
+  width: 40%;
+  font-size: 30px;
+  color: black;
+}
+.prompt svg {
+  font-size: 60px;
+  margin: 5px;
+  color: white;
+}
+
+.skills {
+  font-size: 35px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Inter Tight", sans-serif;
+  text-align: center;
+}
+
+.skillLine {
+  margin-top: -40px;
+  width: 100%;
+  height: 3px;
+  background-color: rgba(57, 91, 100, 0.283);
+}
+
+.skills h1,
+h2 {
+  color: #395b64;
+  font-family: "Inter Tight", sans-serif;
+  text-align: center;
+}
+
+.skills span {
+  text-align: center;
+  font-size: 40px;
+}
+
+.skills .list {
+  list-style: none;
+  width: 60%;
+}
+
+.list span {
+  font-family: "Inter Tight", sans-serif;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .about h2 {
+    font-size: 40px;
+    margin-right: 10vh;
   }
 
-  .skills .list {
-    list-style: none;
-    width: 60%;
-  }
-  
-  .list span {
-    font-family: 'Inter Tight', sans-serif;
+  .about .prompt {
+    margin-top: 10px;
     font-size: 20px;
+    width: 80%;
   }
-  
-  @media only screen and (max-width: 600px) {
-    .about h2 {
-      font-size: 40px;
-      margin-right: 10vh;
-    }
-  
-    .about .prompt {
-      margin-top: 10px;
-      font-size: 20px;
-      width: 80%;
-    }
-  
-    .skills {
-      text-align: center;
-    }
-    .list {
-      padding: 0;
-    }
-  
-    .skills h2 {
-      font-size: 30px;
-    }
+
+  .skills {
+    text-align: center;
   }
+  .list {
+    padding: 0;
+  }
+
+  .skills h2 {
+    font-size: 30px;
+  }
+}

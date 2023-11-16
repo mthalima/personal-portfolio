@@ -1,24 +1,22 @@
-import React from 'react';
-import Keyboard, { Cursor } from 'react-mk';
-
+import React from "react";
+import Keyboard, { Cursor } from "react-mk";
 
 const Headline = () => {
   return (
     <div>
+      <p>
         <Keyboard keyPressDelayRange={[0, 200]}>
-            A software developer passionate for programing,
+          {({ type }) =>
+            type(
+              1000,
+              "A software developer passionate for programing, \nbuilding clean, simplistic and modern systems."
+            )
+          }
         </Keyboard>
-        <br />
-        <Keyboard keyPressDelayRange={[0, 200]}>
-      {({ type }) =>
-        type(
-          4500,
-          'building clean, simplistic and modern systems.'
-        )}
-        </Keyboard>
-        <Cursor />
+      </p>
+      <Cursor />
     </div>
-  )
-}
+  );
+};
 
-export default Headline
+export default Headline;
